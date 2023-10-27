@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #EDE0D4;
+  letter-spacing: 3px;
+
+}
+header .header__logo {
+  width: 5rem;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
